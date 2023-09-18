@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1 - Responsive Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Start of Navbar -->
+  <header>
+    <nav class="navbar  fixed-top navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#"><img src="images/grabfoodlogo.png" style="width: 200px; padding-left: 50px;"
+            alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto" style="padding-right: 50px;">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#aboutpage">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#container-categ" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false" a href="Categories">Categories</a>
+
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#container-categ">Breakfast</a></li>
+                <li><a class="dropdown-item" href="#container-categ">Lunch</a></li>
+                <li><a class="dropdown-item" href="#container-categ">Dinner</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#faqspage">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#container-sign">Sign up</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- backround-image section -->
+
+  <section class="backround-image">
+    <!-- hero section -->
+    <header class="container-fluid">
+      <div data-aos="fade-up" data-aos-duration="3000" class="row ">
+        <div class="col-lg-7">
+          <h1 class="display-1">Eat what you want</h1>
+          <p class="para">Where you want,
+            when you want.</p>
+        </div>
+      </div>
+    </header>
+
+
+    <!--  -->
+    <div data-aos="fade-up" data-aos-duration="3000" class="container">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Good Day!</h5>
+
+          <p class="card-text fw-bold">Where should we deliver br your food today?</p>
+          <label for="text">📍</label>
+          <input type="text" name="" id="location" placeholder="address">
+          <br>
+          <br>
+          <a href="#" class="btn btn-primary">Search</a>
+        </div>
+
+  </section>
+
+  <!-- categories -->
+  <div data-aos="fade-up" data-aos-duration="300">
+    <main id="container-categ">
+      <div class="row-md-3">
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1569058242252-623df46b5025?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHJpY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Breakfast</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1569058242252-623df46b5025?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHJpY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lunch</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1569058242252-623df46b5025?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHJpY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dinner</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+    <hr>
+
+    <!-- About -->
+    <article id="aboutpage" data-aos="fade-left" class="container-about">
+      <div class="col-m-1">
+        <h1 class="text-infor">What is GrabFood?
+          <br>
+          GrabFood is the fastest Food Delivery service in the Philippines. We have curated all your favorite dishes,
+          restaurants, and cuisines to help you grab your food in the easiest & quickest way possible. Find and order
+          your favorite cuisines across the Philippines - order food online in just a few taps, from pandesal with kape
+          for Breakfast, to sinigang na baboy for Lunch, from tapsilog for brunch to sisig with egg for Dinner! We are
+          here to satisfy your hunger with a wide selection of merchant partners.
+
+        </h1>
+      </div>
+
+    </article>
+    <hr>
+
+    <!-- FAQS -->
+    <section id="faqspage" data-aos="fade-right" class="container-faqs">
+      <div class="row-md-5">
+        <ul>
+          <li>
+            <strong>Does GrabFood accept Cash?</strong>
+            <p>Sure, we do! GrabFood accepts all forms of payments for food delivery services, including cash on
+              delivery.</p>
+          </li>
+          <li>
+            <strong>Can I pay online on GrabFood for my food orders?</strong>
+            <p>GrabFood accepts multiple forms of payments for online food orders, including online payments using a
+              credit or debit card, PayPal or cash on delivery</p>
+          </li>
+          <li>
+            <strong>Can I order GrabFood for someone else?</strong>
+            <p>Of course, pamper your loved ones by having their favourite food delivered to their door. Just update the
+              recipient's name and delivery address before placing your order. How much does GrabFood charge for
+              delivery?</p>
+          </li>
+          <li>
+            <strong>How much does GrabFood charge for delivery?</strong>
+            <p>Our delivery fee depends on a lot of operational factors like distance from your location to the
+              restaurant.</p>
+          </li>
+          <li>
+            <strong>Does GrabFood have a minimum order?</strong>
+            <p>Yes! But you can pay the difference if your order is less than the minimum order amount.</p>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+    <hr>
+
+    <!-- sign up  -->
+    <section data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" id="container-sign">
+      <form>
+        <div class="row g-3 mb-4">
+          <div class="col-md-6">
+            <label for="first_name" class="form-label fw-bold">First Name</label>
+            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="ex. John " required>
+          </div>
+          <div class="col-md-6">
+            <label for="last_name" class="form-label fw-bold">Last Name</label>
+            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="ex. Doe" required>
+          </div>
+        </div>
+        <div class="row g-3 mb-4">
+          <div class="col-md-12">
+            <label for="email" class="form-label fw-bold">Email Address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="ex. name@gmailcom" required>
+          </div>
+        </div>
+        <div class="row g-3 mb-4">
+          <div class="col-md-12">
+            <label for="message" class="form-label fw-bold">Message</label>
+            <textarea class="form-control" id="message" name="message" placeholder="Feedback area.." rows="3"
+              required=""></textarea>
+          </div>
+        </div>
+        <div class="d-grid gap-2 col-md-4 mx-auto">
+          <button id="btn-custom" class="btn btn-light" type="button">Proceed</button>
+        </div>
+      </form>
+    </section>
+    <hr>
+
+    <!-- footer -->
+    <footer id="footer-custom">
+      <div class=" text-white  bg-success p-2">
+        Copyright 2023 ©Cyrille Evan Isayas. All rights reserved.
+      </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
